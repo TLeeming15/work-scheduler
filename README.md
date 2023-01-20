@@ -33,13 +33,8 @@ This application provides a simple organisational tool for the user to help incr
 
 ## Usage
 
-The following images show the completed website. You can visit the site by clicking [here.](Put deploy link here)
+The following images show the completed website. You can visit the site by clicking [here.](https://tleeming15.github.io/work-scheduler/)
 
-<img src=".png" alt=""/>
-
-<img src=".png" alt=""/>
-
-<img src=".png" alt=""/>
 
 
 ## Installation
