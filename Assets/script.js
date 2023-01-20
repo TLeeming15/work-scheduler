@@ -1,6 +1,7 @@
 
+let currentDate = $("#currentDay");
  
-  
+
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
@@ -14,8 +15,13 @@ let pastClass = "past";
 let presentClass = "present";
 let futureClasss = "future";
 
+const visibleRows = 3;
+
+
+
 const workHours = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM", "5PM"];
  const dataIndex = "data-index";
+
 
 
 
@@ -41,14 +47,28 @@ function renderBlocks(blockStorage) {
   }
 }
 
-  // time-block containing the button that was clicked? How might the id be
-  // useful when saving the description in local storage?
-  //
-  // TODO: Add code to apply the past, present, or future class to each time
-  // block by comparing the id to the current hour. HINTS: How can the id
-  // attribute of each time-block be used to conditionally add or remove the
-  // past, present, and future classes? How can Day.js be used to get the
-  // current hour in 24-hour time?
+// function addBlocks ();
+
+//   for (let i=); i < workHours.length; i++){
+//     let wHour = workHours [i];
+
+//     let hour = (wHour);
+
+//     let className = getClassName (hour);
+
+//     let blockDiv = $("<div>");
+//     blockDiv.addClass(className)
+
+//     let time = $("<div>");
+//     time.text(wHour);
+//     time.addClass(timeClasses.join(""))
+
+//     let textArea = $ ("<textarea>");
+//     textArea.addClass(textAreaClasses.join(""));
+//     textArea.attr("rows", visibleRows);
+//   }
+
+ 
   var currentHour = dayjs().hour()
   $(".time-block").each(function(){
     var timeBlock = $(this)
