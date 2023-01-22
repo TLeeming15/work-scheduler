@@ -42,6 +42,7 @@ function renderBlocks(blockStorage) {
   }
 }
 
+
 // function addBlocks ();
 
 //   for (let i=); i < workHours.length; i++){
@@ -72,5 +73,5 @@ function renderBlocks(blockStorage) {
   })
 
 // Displays current day
-  $("#currentDay").text(dayjs().format('dddd, MMMM, DD, YYYY'))
+$("#currentDay").text(dayjs().format('dddd, MMMM, DD, YYYY'))
 
