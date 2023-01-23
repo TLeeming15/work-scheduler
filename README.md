@@ -1,5 +1,5 @@
 
-# <Javascript Quiz>
+# <Work Day Scheduler>
 
 ## Description
 
@@ -35,6 +35,10 @@ This application provides a simple organisational tool for the user to help incr
 
 The following images show the completed website. You can visit the site by clicking [here.](https://tleeming15.github.io/work-scheduler/)
 
+
+<img src="assets/images/workday-scheduler1.png" alt="Title of Work Day Scheduler, current date, and 9am-2pm time blocks"/>
+
+<img src="assets/images/workday-scheduler2.png" alt="2pm-5pm time blocks"/>
 
 
 ## Installation
